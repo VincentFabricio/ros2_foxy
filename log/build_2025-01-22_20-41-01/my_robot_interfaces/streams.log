@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_robot_interfaces -- -j8 -l8
+[0.052s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.085s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.085s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.253s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.391s]   rosidl_generate_interfaces() the passed file 'msg/LedStateArray' doesn't
+[0.391s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.392s]   '/home/vincent-pc/ros2_foxy/src/my_robot_interfaces'
+[0.392s] Call Stack (most recent call first):
+[0.392s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.392s] 
+[0.392s] 
+[0.392s] -- Configuring incomplete, errors occurred!
+[0.392s] See also "/home/vincent-pc/ros2_foxy/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.395s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[0.398s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_robot_interfaces -- -j8 -l8

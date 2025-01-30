@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/led_panel_cpp.dir/src/led_panel.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/led_panel.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/led_panel.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/hardware_status_publisher_cpp.dir/src/hw_status_publisher.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/hw_status_publisher.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/hw_status_publisher.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/my_first_node.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/my_first_node.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/add_two_ints_server_cpp.dir/src/add_two_ints_server.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_server.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_server.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/robot_news_station_cpp.dir/src/robot_news_station.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/robot_news_station.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/robot_news_station.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/smartphone_cpp.dir/src/smartphone.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/smartphone.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/smartphone.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/number_counter_cpp.dir/src/number_counter.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client_no_oop.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/number_publisher_cpp.dir/src/number_publisher.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_publisher.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_publisher.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/reset_number_client.dir/src/reset_number_client.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/reset_number_client.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/reset_number_client.cpp"
+},
+{
+  "directory": "/home/vincent-pc/ros2_foxy/build",
+  "command": "/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -isystem /opt/ros/foxy/include  -g   -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles/number_counter_server_cpp.dir/src/number_counter_server.cpp.o -c /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter_server.cpp",
+  "file": "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter_server.cpp"
+}
+]

@@ -1,0 +1,19 @@
+[0.553s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_py_pkg': PYTHONPATH=/home/vincent-pc/ros2_foxy/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_foxy/build/my_py_pkg/build --no-deps symlink_data
+[0.754s] running develop
+[0.871s] running egg_info
+[0.871s] writing my_py_pkg.egg-info/PKG-INFO
+[0.871s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.871s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.871s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.871s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.898s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.899s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.925s] running build_ext
+[0.926s] Creating /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages/my-py-pkg.egg-link (link to .)
+[0.927s] Installing py_node script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.927s] Installing robot_news_station script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.927s] Installing smarphone script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.927s] 
+[0.928s] Installed /home/vincent-pc/ros2_foxy/build/my_py_pkg
+[0.928s] running symlink_data
+[0.954s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_py_pkg' returned '0': PYTHONPATH=/home/vincent-pc/ros2_foxy/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vincent-pc/ros2_foxy/build/my_py_pkg/build --no-deps symlink_data

@@ -1,0 +1,5 @@
+  File "/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client_no_oop.py", line 25
+    node.get_logger().error("Services call failed %r",%(e,))
+                                                      ^
+SyntaxError: invalid syntax
+

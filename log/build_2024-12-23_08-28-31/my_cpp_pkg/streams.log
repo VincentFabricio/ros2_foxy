@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8
+[0.055s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.256s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.296s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.565s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.720s] -- Configuring done
+[0.735s] -- Generating done
+[0.742s] -- Build files have been written to: /home/vincent-pc/ros2_foxy/build/my_cpp_pkg
+[0.762s] [35m[1mScanning dependencies of target smartphone_cpp[0m
+[0.762s] [35m[1mScanning dependencies of target robot_news_station_cpp[0m
+[0.782s] [ 33%] Built target cpp_node
+[0.793s] [ 50%] [32mBuilding CXX object CMakeFiles/smartphone_cpp.dir/src/smartphone.cpp.o[0m
+[0.794s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_news_station_cpp.dir/src/robot_news_station.cpp.o[0m
+[1.965s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/smartphone.cpp:[m[K In constructor ‘[01m[KSmartPhoneNode::SmartPhoneNode()[m[K’:
+[1.965s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/smartphone.cpp:13:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.965s]    13 |     [01;31m[K}[m[K
+[1.966s]       |     [01;31m[K^[m[K
+[3.252s] make[2]: *** [CMakeFiles/smartphone_cpp.dir/build.make:63: CMakeFiles/smartphone_cpp.dir/src/smartphone.cpp.o] Error 1
+[3.253s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/smartphone_cpp.dir/all] Error 2
+[3.253s] make[1]: *** Waiting for unfinished jobs....
+[3.468s] [ 83%] [32m[1mLinking CXX executable robot_news_station_cpp[0m
+[3.644s] [ 83%] Built target robot_news_station_cpp
+[3.645s] make: *** [Makefile:141: all] Error 2
+[3.647s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8

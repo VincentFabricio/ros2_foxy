@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target number_publisher_cpp[0m
+[ 25%] Built target robot_news_station_cpp
+[ 50%] Built target cpp_node
+[ 75%] Built target smartphone_cpp
+[ 87%] [32mBuilding CXX object CMakeFiles/number_publisher_cpp.dir/src/number_publisher.cpp.o[0m
+[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_publisher.cpp:[m[K In member function ‘[01m[Kvoid NumberPublisherNode::PublisherNumber()[m[K’:
+[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_publisher.cpp:16:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ is not a class, namespace, or enumeration
+   16 |         msg.[01;31m[Kdata[m[K ::std::int64(number_);
+      |             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/number_publisher_cpp.dir/build.make:63: CMakeFiles/number_publisher_cpp.dir/src/number_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/number_publisher_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

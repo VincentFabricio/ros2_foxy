@@ -1,0 +1,7 @@
+[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisher::HardwareStatusPublisher()[m[K’:
+[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/hw_status_publisher.cpp:12:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+   12 |                     ([01;31m[K<[m[K&HardwareStatusPublisher::publishHardwareStatus, this));
+      |                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/hardware_status_publisher_cpp.dir/build.make:63: CMakeFiles/hardware_status_publisher_cpp.dir/src/hw_status_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/hardware_status_publisher_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

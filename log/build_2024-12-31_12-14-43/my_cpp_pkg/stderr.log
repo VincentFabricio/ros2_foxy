@@ -1,0 +1,23 @@
+[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client.cpp:14:64:[m[K [01;31m[Kerror: [m[Kwrong number of template arguments (0, should be 1)
+   14 |     using ServiceResponseFuture = rclcpp::Client</* srv_type */[01;31m[K>[m[K::SharedFuture;
+      |                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/client.hpp:178:7:[m[K [01;36m[Knote: [m[Kprovided for ‘[01m[Ktemplate<class ServiceT> class rclcpp::Client[m[K’
+  178 | class [01;36m[KClient[m[K : public ClientBase
+      |       [01;36m[K^~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClientNode::callAddTwoIntsService(int, int)[m[K’:
+[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/add_two_ints_client.cpp:18:54:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   18 |         while (!client_->wait_for_service(std::chrono[01;31m[K([m[K1)))
+      |                                                      [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:63: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/add_two_ints_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

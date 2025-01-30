@@ -1,0 +1,27 @@
+[0.016s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8
+[0.058s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.294s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.345s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.503s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.507s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.651s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.828s] -- Configuring done
+[0.829s] CMake Error at CMakeLists.txt:22 (add_executable):
+[0.830s]   Cannot find source file:
+[0.830s] 
+[0.830s]     src/robot_new_station.cpp
+[0.830s] 
+[0.830s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.830s]   .hpp .hxx .in .txx
+[0.830s] 
+[0.830s] 
+[0.831s] CMake Error at CMakeLists.txt:22 (add_executable):
+[0.831s]   No SOURCES given to target: robot_new_station
+[0.831s] 
+[0.831s] 
+[0.831s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.835s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.837s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8

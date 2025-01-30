@@ -1,0 +1,30 @@
+[0.546s] Invoking command in '/home/vincent-pc/ros2_foxy/src/my_py_pkg': PYTHONPATH=/home/vincent-pc/ros2_foxy/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vincent-pc/ros2_foxy/build/my_py_pkg/build install --record /home/vincent-pc/ros2_foxy/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data
+[0.731s] running egg_info
+[0.731s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.732s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.732s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.732s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.732s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.762s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.763s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.763s] running build
+[0.763s] running build_py
+[0.764s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/vincent-pc/ros2_foxy/build/my_py_pkg/build/lib/my_py_pkg
+[0.764s] running install
+[0.765s] running install_lib
+[0.766s] copying /home/vincent-pc/ros2_foxy/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.766s] byte-compiling /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-38.pyc
+[0.767s] running install_data
+[0.768s] running install_egg_info
+[0.769s] removing '/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.769s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.770s] running install_scripts
+[0.785s] Installing add_two_ints_client_no_oop_py script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.786s] Installing add_two_ints_server_py script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.786s] Installing number_counter_py script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.786s] Installing number_publisher_py script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.786s] Installing py_node script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.786s] Installing robot_news_station script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.786s] Installing smartphone script to /home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/my_py_pkg
+[0.786s] writing list of installed files to '/home/vincent-pc/ros2_foxy/build/my_py_pkg/install.log'
+[0.803s] Invoked command in '/home/vincent-pc/ros2_foxy/src/my_py_pkg' returned '0': PYTHONPATH=/home/vincent-pc/ros2_foxy/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vincent-pc/ros2_foxy/build/my_py_pkg/build install --record /home/vincent-pc/ros2_foxy/build/my_py_pkg/install.log --install-scripts $base/lib/my_py_pkg --single-version-externally-managed install_data

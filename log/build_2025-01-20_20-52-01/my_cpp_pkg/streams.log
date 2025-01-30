@@ -1,0 +1,21 @@
+[0.014s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8
+[0.068s] [35m[1mScanning dependencies of target hardware_status_publisher_cpp[0m
+[0.096s] [  9%] Built target robot_news_station_cpp
+[0.099s] [ 18%] Built target cpp_node
+[0.103s] [ 27%] Built target number_counter_cpp
+[0.108s] [ 36%] Built target number_publisher_cpp
+[0.113s] [ 54%] Built target add_two_ints_client_no_oop
+[0.113s] [ 54%] Built target add_two_ints_server_cpp
+[0.117s] [ 63%] Built target smartphone_cpp
+[0.119s] [ 68%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher_cpp.dir/src/hw_status_publisher.cpp.o[0m
+[0.145s] [ 77%] Built target add_two_ints_client
+[0.151s] [ 86%] Built target reset_number_client
+[0.158s] [ 95%] Built target number_counter_server_cpp
+[1.362s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/hw_status_publisher.cpp:[m[K In constructor ‘[01m[KHardwareStatusPublisher::HardwareStatusPublisher()[m[K’:
+[1.362s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/hw_status_publisher.cpp:12:22:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<[m[K’ token
+[1.362s]    12 |                     ([01;31m[K<[m[K&HardwareStatusPublisher::publishHardwareStatus, this));
+[1.362s]       |                      [01;31m[K^[m[K
+[2.163s] make[2]: *** [CMakeFiles/hardware_status_publisher_cpp.dir/build.make:63: CMakeFiles/hardware_status_publisher_cpp.dir/src/hw_status_publisher.cpp.o] Error 1
+[2.163s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/hardware_status_publisher_cpp.dir/all] Error 2
+[2.163s] make: *** [Makefile:141: all] Error 2
+[2.165s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8

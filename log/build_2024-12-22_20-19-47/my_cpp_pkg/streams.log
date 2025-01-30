@@ -1,0 +1,40 @@
+[0.012s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8
+[0.037s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.233s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.265s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.389s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.507s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.651s] -- Configuring done
+[0.661s] -- Generating done
+[0.666s] -- Build files have been written to: /home/vincent-pc/ros2_foxy/build/my_cpp_pkg
+[0.685s] [35m[1mScanning dependencies of target robot_news_station[0m
+[0.702s] [ 50%] Built target cpp_node
+[0.713s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[3.179s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[3.343s] [100%] Built target robot_news_station
+[3.354s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8
+[3.365s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_foxy/build/my_cpp_pkg
+[3.372s] -- Install configuration: ""
+[3.372s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[3.373s] -- Installing: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[3.373s] -- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station" to ""
+[3.374s] -- Installing: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[3.374s] -- Installing: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[3.374s] -- Installing: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[3.374s] -- Installing: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[3.374s] -- Installing: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[3.374s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[3.375s] -- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[3.375s] -- Installing: /home/vincent-pc/ros2_foxy/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[3.376s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_foxy/build/my_cpp_pkg

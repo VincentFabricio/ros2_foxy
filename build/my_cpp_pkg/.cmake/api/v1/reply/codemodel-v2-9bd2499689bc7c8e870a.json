@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client-30e091ae6bf30b95312c.json",
+					"name" : "add_two_ints_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_client_no_oop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_client_no_oop-4618c1808d0562d0f69e.json",
+					"name" : "add_two_ints_client_no_oop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_two_ints_server_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_two_ints_server_cpp-32d7016e1e398cd63030.json",
+					"name" : "add_two_ints_server_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_node-96a8122837295e82c6af.json",
+					"name" : "cpp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hardware_status_publisher_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hardware_status_publisher_cpp-81eee0bb1e9a7af0cd97.json",
+					"name" : "hardware_status_publisher_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "led_panel_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-led_panel_cpp-d44d8a722203de37b8a3.json",
+					"name" : "led_panel_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_cpp_pkg_uninstall-eaf024a2ce9ecdd9a74b.json",
+					"name" : "my_cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_counter_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_counter_cpp-60bc3f4784fae038bfac.json",
+					"name" : "number_counter_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_counter_server_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_counter_server_cpp-2739f62dffb447b34dbf.json",
+					"name" : "number_counter_server_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_publisher_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_publisher_cpp-79b934884728a2d28700.json",
+					"name" : "number_publisher_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reset_number_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reset_number_client-5627e7701c9ebb3dfcfa.json",
+					"name" : "reset_number_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_news_station_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_news_station_cpp-ee26d48cfbf21d58d8be.json",
+					"name" : "robot_news_station_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smartphone_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smartphone_cpp-c5bfe5562a71124160cb.json",
+					"name" : "smartphone_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7bd3a78dee9de39ab787.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vincent-pc/ros2_foxy/build/my_cpp_pkg",
+		"source" : "/home/vincent-pc/ros2_foxy/src/my_cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

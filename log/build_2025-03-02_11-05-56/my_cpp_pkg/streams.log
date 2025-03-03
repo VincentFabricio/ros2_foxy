@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8
+[0.079s] [35m[1mScanning dependencies of target robot_news_station_cpp[0m
+[0.117s] [  8%] Built target hardware_status_publisher_cpp
+[0.119s] [ 16%] Built target cpp_node
+[0.121s] [ 25%] Built target led_panel_cpp
+[0.122s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_news_station_cpp.dir/src/robot_news_station.cpp.o[0m
+[0.135s] [ 37%] Built target smartphone_cpp
+[0.139s] [ 45%] Built target add_two_ints_server_cpp
+[0.142s] [ 54%] Built target add_two_ints_client_no_oop
+[0.148s] [ 62%] Built target number_counter_cpp
+[0.176s] [ 70%] Built target add_two_ints_client
+[0.186s] [ 79%] Built target number_publisher_cpp
+[0.188s] [ 87%] Built target reset_number_client
+[0.195s] [ 95%] Built target number_counter_server_cpp
+[1.465s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
+[1.465s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/robot_news_station.cpp:9:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+[1.465s]     9 |         this->declare_parameter<std::string>("robot_name1", "R2D2")
+[1.465s]       |                                                                    [01;31m[K^[m[K
+[1.465s]       |                                                                    [32m[K;[m[K
+[1.465s]    10 |         [32m[Kthis[m[K->declare_parameter<std::string>("robot_name2", "C3P0")
+[1.465s]       |         [32m[K~~~~[m[K                                                        
+[1.467s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/robot_news_station.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext1_[m[K’ was not declared in this scope
+[1.467s]    15 |         [01;31m[Ktext1_[m[K =this->get_parameter("text1").as_string();
+[1.467s]       |         [01;31m[K^~~~~~[m[K
+[2.367s] make[2]: *** [CMakeFiles/robot_news_station_cpp.dir/build.make:63: CMakeFiles/robot_news_station_cpp.dir/src/robot_news_station.cpp.o] Error 1
+[2.367s] make[1]: *** [CMakeFiles/Makefile2:262: CMakeFiles/robot_news_station_cpp.dir/all] Error 2
+[2.367s] make: *** [Makefile:141: all] Error 2
+[2.369s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_ws/install/py_srvcli:/home/vincent-pc/ros2_ws/install/py_pubsub:/home/vincent-pc/ros2_ws/install/my_package_Py:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_service:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_publisher:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_server:/home/vincent-pc/ros2_ws/install/examples_rclpy_minimal_action_client:/home/vincent-pc/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8

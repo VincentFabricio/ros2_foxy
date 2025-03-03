@@ -1,0 +1,7 @@
+/led_panel_py:
+  ros__parameters:
+    led_states: [0, 0, 0, 5]
+
+/led_panel_cpp:
+  ros__parameters:
+    led_states: [0, 0, 0]

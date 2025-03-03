@@ -5,7 +5,7 @@ from functools import partial
 
 from my_robot_interfaces.srv import SetLed
  
-class BaterryNode(Node): 
+class BatteryNode(Node): 
     def __init__(self):
         super().__init__("battery_py")
         
@@ -21,7 +21,7 @@ class BaterryNode(Node):
         if self.battery_state_ == "full":
             if time_now - self.last_time_battery_state_changed_ > 4.0:
                 self.battery_state_ = "empty"
-                self.get_logger().info('Baterry is empty! Charging battery...')
+                self.get_logger().info('Battery is empty! Charging battery...')
                 self.last_time_battery_state_changed_ = time_now
                 self.call_set_led_server(3, 1)
         else:
@@ -57,7 +57,7 @@ class BaterryNode(Node):
  
 def main(args=None):
     rclpy.init(args=args)
-    node = BaterryNode() # MODIFY NAME
+    node = BatteryNode() # MODIFY NAME
     rclpy.spin(node)
     rclpy.shutdown()
  

@@ -7,11 +7,16 @@ from example_interfaces.msg import Int64
  
 class NumberPublisherNode(Node): # MODIFY NAME
     def __init__(self):
-        super().__init__("number_publisher_py") 
+        super().__init__("number_publisher_py")
+        self.declare_parameter("number", 2)
+        self.declare_parameter("timer_period", 1.0)
         
-        self.number_ = 2
+        #self.number_ = 2
+        self.number_ =self.get_parameter("number").value
+        self.timer_period_ =self.get_parameter("timer_period").value
+        
         self.publishe1_ = self.create_publisher(Int64, "number_py",10)
-        self.timer1_ = self.create_timer(0.5, self.publisherNumber)
+        self.timer1_ = self.create_timer(self.timer_period_, self.publisherNumber)
         self.get_logger().info("Number station has been started")
 
     def publisherNumber(self):

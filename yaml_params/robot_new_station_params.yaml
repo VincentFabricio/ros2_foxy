@@ -1,0 +1,11 @@
+/robot_news_station:
+  ros__parameters:
+    robot_name1:  R2D2_New
+    robot_name2:  C3P0_New
+    text1:        Hello Fabricio, this is 
+
+/robot_news_station_cpp:
+  ros__parameters:
+    robot_name1:  R2D2_New
+    robot_name2:  C3P0_New
+    text1:        Hello Fabricio, this is 

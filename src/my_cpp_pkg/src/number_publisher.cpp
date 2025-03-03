@@ -4,11 +4,19 @@
 class NumberPublisherNode : public rclcpp::Node // MODIFY NAME
 {
 public:
-    NumberPublisherNode() : Node("number_publisher_cpp"), number_(40)
+    NumberPublisherNode() : Node("number_publisher_cpp")
     {
+        this->declare_parameter("number", 2);
+        this->declare_parameter("timer_period", 1.0);
+
+        number_ = this->get_parameter("number").as_int();
+        double timer_period = this->get_parameter("timer_period").as_double();
+
         Publisher1_ = this->create_publisher<example_interfaces::msg::Int64>("number_cpp",10);
-        timer1_     = this->create_wall_timer(std::chrono::milliseconds(800),std::bind
-                                            (&NumberPublisherNode::PublisherNumber,this));
+        timer1_     = this->create_wall_timer(std::chrono::duration<double>(timer_period),
+                                            std::bind(&NumberPublisherNode::PublisherNumber,this));
+        //timer1_     = this->create_wall_timer(std::chrono::milliseconds(800),std::bind(&NumberPublisherNode::PublisherNumber,this));
+        //timer1_     = this->create_wall_timer(1s, std::bind(&NumberPublisherNode::PublisherNumber,this));
         
         RCLCPP_INFO(this->get_logger(),"Number Publisher has been started.");
     }

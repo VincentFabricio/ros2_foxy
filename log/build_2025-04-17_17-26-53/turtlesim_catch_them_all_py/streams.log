@@ -1,0 +1,42 @@
+[1.121s] Invoking command in '/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_py': PYTHONPATH=/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all_py build --build-base /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build install --record /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/install.log --install-scripts $base/lib/turtlesim_catch_them_all_py --single-version-externally-managed install_data
+[1.484s] running egg_info
+[1.485s] creating ../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info
+[1.485s] writing ../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/PKG-INFO
+[1.486s] writing dependency_links to ../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/dependency_links.txt
+[1.486s] writing entry points to ../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/entry_points.txt
+[1.486s] writing requirements to ../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/requires.txt
+[1.486s] writing top-level names to ../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/top_level.txt
+[1.488s] writing manifest file '../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/SOURCES.txt'
+[1.528s] reading manifest file '../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/SOURCES.txt'
+[1.529s] writing manifest file '../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info/SOURCES.txt'
+[1.529s] running build
+[1.529s] running build_py
+[1.529s] creating /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build
+[1.529s] creating /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib
+[1.529s] creating /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib/turtlesim_catch_them_all_py
+[1.530s] copying turtlesim_catch_them_all_py/turtle_spawner.py -> /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib/turtlesim_catch_them_all_py
+[1.530s] copying turtlesim_catch_them_all_py/turtle_controller.py -> /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib/turtlesim_catch_them_all_py
+[1.530s] copying turtlesim_catch_them_all_py/__init__.py -> /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib/turtlesim_catch_them_all_py
+[1.530s] running install
+[1.531s] running install_lib
+[1.532s] creating /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py
+[1.532s] copying /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib/turtlesim_catch_them_all_py/turtle_spawner.py -> /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py
+[1.532s] copying /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib/turtlesim_catch_them_all_py/turtle_controller.py -> /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py
+[1.532s] copying /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build/lib/turtlesim_catch_them_all_py/__init__.py -> /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py
+[1.532s] byte-compiling /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py/turtle_spawner.py to turtle_spawner.cpython-38.pyc
+[1.534s] byte-compiling /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py/turtle_controller.py to turtle_controller.cpython-38.pyc
+[1.535s] byte-compiling /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py/__init__.py to __init__.cpython-38.pyc
+[1.535s] running install_data
+[1.535s] creating /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/share/ament_index
+[1.535s] creating /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/share/ament_index/resource_index
+[1.535s] creating /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/share/ament_index/resource_index/packages
+[1.535s] copying resource/turtlesim_catch_them_all_py -> /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/share/ament_index/resource_index/packages
+[1.535s] copying package.xml -> /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/share/turtlesim_catch_them_all_py
+[1.535s] running install_egg_info
+[1.537s] Copying ../../build/turtlesim_catch_them_all_py/turtlesim_catch_them_all_py.egg-info to /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages/turtlesim_catch_them_all_py-0.0.0-py3.8.egg-info
+[1.538s] running install_scripts
+[1.557s] Installing controller_py script to /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/turtlesim_catch_them_all_py
+[1.557s] Installing controller_py_PID script to /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/turtlesim_catch_them_all_py
+[1.558s] Installing spawner_py script to /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/turtlesim_catch_them_all_py
+[1.558s] writing list of installed files to '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/install.log'
+[1.587s] Invoked command in '/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_py' returned '0': PYTHONPATH=/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlesim_catch_them_all_py build --build-base /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/build install --record /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_py/install.log --install-scripts $base/lib/turtlesim_catch_them_all_py --single-version-externally-managed install_data

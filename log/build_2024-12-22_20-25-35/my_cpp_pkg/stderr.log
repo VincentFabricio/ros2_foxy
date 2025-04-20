@@ -1,7 +1,0 @@
-[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/robot_news_station.cpp:[m[K In constructor ‘[01m[KRobotNewsStationNode::RobotNewsStationNode()[m[K’:
-[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/robot_news_station.cpp:7:5:[m[K [01;31m[Kerror: [m[Kmultiple initializations given for ‘[01m[KRobotNewsStationNode::robot_name_[m[K’
-    7 |     [01;31m[KRobotNewsStationNode[m[K() : Node("robot_news_station"), robot_name_("R2D2"), robot_name_("C3PO")
-      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/robot_news_station.dir/build.make:63: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/robot_news_station.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

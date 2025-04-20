@@ -1,0 +1,9 @@
+/robot_news_station_Hernandez:
+  ros__parameters:
+    robot_name1: "Atlas"
+    robot_name2: "X1"
+
+/robot_news_station_C3PO:
+  ros__parameters:
+    robot_name1: "Atlas"
+    robot_name2: "X1"

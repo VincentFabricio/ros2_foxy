@@ -11,6 +11,10 @@ rclcpp/rclcpp.hpp
 /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/rclcpp/rclcpp.hpp
 example_interfaces/msg/int64.hpp
 /home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/example_interfaces/msg/int64.hpp
+rclcpp/parameter.hpp
+-
+rcl_interfaces/msg/set_parameters_result.hpp
+/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/rcl_interfaces/msg/set_parameters_result.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

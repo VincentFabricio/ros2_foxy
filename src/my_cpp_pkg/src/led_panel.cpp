@@ -10,6 +10,10 @@ class LedPanelNode : public rclcpp::Node
 public:
     LedPanelNode() : Node("led_panel_cpp") 
     {
+        this-> declare_parameter<std::vector<int64_t>>("led_states", std::vector<int64_t>{0, 0, 0, 0});
+
+        led_states_ = this->get_parameter("led_states").as_integer_array();
+
         led_states_publisher_ = this->create_publisher<my_robot_interfaces::msg::LedStateArray>("set_led", 10);
         timer_ = this->create_wall_timer(
             std::chrono::seconds(4),
@@ -54,7 +58,7 @@ private:
         
     }
 
-    std::vector<long int> led_states_ = {0, 0, 0};
+    std::vector<int64_t> led_states_;
     rclcpp::Publisher<my_robot_interfaces::msg::LedStateArray>::SharedPtr led_states_publisher_;
     rclcpp::Service<my_robot_interfaces::srv::SetLed>::SharedPtr set_led_service_;
     rclcpp::TimerBase::SharedPtr timer_;

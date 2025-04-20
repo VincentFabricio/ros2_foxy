@@ -1,0 +1,11 @@
+<launch>
+<node pkg="turtlesim" exec="turtlesim_node" />
+    <node pkg="turtlesim_catch_them_all_py" exec="controller_py" name="controller" >
+        <remap from="turtle_controller_py" to="turtle_controller"/>
+        <param from="$(find-pkg-share my_robot_bringup)/config/catch_them_all.yaml"/>
+    </node>
+    <node pkg="turtlesim_catch_them_all_py" exec="spawner_py" name="spawner" output="screen">
+        <remap from="turtle_spawner_py" to="turtle_spawner"/>
+        <param from="$(find-pkg-share my_robot_bringup)/config/catch_them_all.yaml"/>
+    </node>
+</launch>

@@ -63,6 +63,16 @@ CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/ms
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__struct.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__traits.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/turtle.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__builder.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__struct.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__traits.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__type_support.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/turtle_array.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__builder.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__struct.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__traits.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
@@ -73,6 +83,11 @@ CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/sr
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__struct.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__traits.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__type_support.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/catch_turtle.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__type_support.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
@@ -97,8 +112,11 @@ rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: /opt/ros/foxy/
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_robot_interfaces/msg/LedStateArray.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_robot_interfaces/msg/Turtle.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_robot_interfaces/msg/TurtleArray.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_robot_interfaces/srv/SetLed.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp: rosidl_adapter/my_robot_interfaces/srv/CatchTurtle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vincent-pc/ros2_foxy/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/vincent-pc/ros2_foxy/build/my_robot_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -128,6 +146,36 @@ rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__traits.hpp:
 
 rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/turtle.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/turtle.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__builder.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__builder.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__struct.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__struct.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__traits.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__traits.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__type_support.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__type_support.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/turtle_array.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/turtle_array.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__builder.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__builder.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__struct.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__struct.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__traits.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__traits.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp
 
 rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp
@@ -159,6 +207,21 @@ rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__traits.hpp: rosidl_
 rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__type_support.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__type_support.hpp
 
+rosidl_generator_cpp/my_robot_interfaces/srv/catch_turtle.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/catch_turtle.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__type_support.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__type_support.hpp
+
 my_robot_interfaces__cpp: CMakeFiles/my_robot_interfaces__cpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/hardware_status.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
@@ -170,6 +233,16 @@ my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/le
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__struct.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__traits.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/turtle.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__builder.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__struct.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__traits.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle__type_support.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/turtle_array.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__builder.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__struct.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__traits.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/turtle_array__type_support.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/compute_rectangle_area.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
@@ -180,6 +253,11 @@ my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/se
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__struct.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__traits.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__type_support.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/catch_turtle.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__builder.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__struct.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__traits.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/catch_turtle__type_support.hpp
 my_robot_interfaces__cpp: CMakeFiles/my_robot_interfaces__cpp.dir/build.make
 
 .PHONY : my_robot_interfaces__cpp

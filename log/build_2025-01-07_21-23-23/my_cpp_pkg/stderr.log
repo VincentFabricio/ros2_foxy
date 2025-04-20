@@ -1,7 +1,0 @@
-[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/reset_number_client.cpp:[m[K In constructor ‘[01m[KresetNumberClient::resetNumberClient()[m[K’:
-[01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/reset_number_client.cpp:10:27:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoIntsClientNode[m[K’ was not declared in this scope
-   10 |                     bind(&[01;31m[KAddTwoIntsClientNode[m[K::callAddTwoIntsService, this, true));
-      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
-make[2]: *** [CMakeFiles/reset_number_client.dir/build.make:63: CMakeFiles/reset_number_client.dir/src/reset_number_client.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:366: CMakeFiles/reset_number_client.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

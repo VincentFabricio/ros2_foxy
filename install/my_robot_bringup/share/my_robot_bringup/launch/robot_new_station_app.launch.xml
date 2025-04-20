@@ -1,0 +1,29 @@
+<launch>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_Vincent" >
+        <remap from="/robot_news_" to="robot_news" />
+        <param name="robot_name1" value="C3PO" />
+        <param name="robot_name2" value="Vincet" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_Fabricio" >
+        <remap from="/robot_news_" to="robot_news" />
+        <param name="robot_name1" value="R2D2" />
+        <param name="robot_name2" value="Fabricio" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_Mancera" >
+        <remap from="/robot_news_" to="robot_news" />
+        <param name="robot_name1" value="Roxy" />
+        <param name="robot_name2" value="Otto" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_Hernandez" >
+        <remap from="/robot_news_" to="robot_news" />
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station_app.yaml" />
+    </node>
+    <node pkg="my_py_pkg" exec="robot_news_station" name="robot_news_station_C3PO" >
+        <remap from="/robot_news_" to="robot_news" />
+        <param from="$(find-pkg-share my_robot_bringup)/config/robot_news_station_app.yaml" />
+    </node>
+
+    <node pkg="my_cpp_pkg" exec="smartphone_cpp" name="smartphone" >
+        <remap from="/robot_news_cpp" to="robot_news"/>
+    </node>
+</launch>

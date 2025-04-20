@@ -1,0 +1,57 @@
+[0.029s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/opt/ros/foxy /usr/bin/cmake /home/vincent-pc/ros2_foxy/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_foxy/install/my_cpp_pkg
+[0.342s] -- The C compiler identification is GNU 9.4.0
+[0.342s] -- The CXX compiler identification is GNU 9.4.0
+[0.343s] -- Check for working C compiler: /usr/bin/cc
+[0.343s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.343s] -- Detecting C compiler ABI info
+[0.343s] -- Detecting C compiler ABI info - done
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++
+[0.485s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.487s] -- Detecting CXX compiler ABI info
+[0.651s] -- Detecting CXX compiler ABI info - done
+[0.668s] -- Detecting CXX compile features
+[0.669s] -- Detecting CXX compile features - done
+[0.672s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.719s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.145s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.218s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.313s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.337s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.459s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.460s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.461s] -- Looking for pthread.h
+[1.549s] -- Looking for pthread.h - found
+[1.549s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.637s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.637s] -- Looking for pthread_create in pthreads
+[1.694s] -- Looking for pthread_create in pthreads - not found
+[1.694s] -- Looking for pthread_create in pthread
+[1.765s] -- Looking for pthread_create in pthread - found
+[1.767s] -- Found Threads: TRUE  
+[1.936s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.072s] CMake Error at CMakeLists.txt:17 (find_package):
+[2.073s]   By not providing "Findmy_robot_interfaces.cmake" in CMAKE_MODULE_PATH this
+[2.073s]   project has asked CMake to find a package configuration file provided by
+[2.073s]   "my_robot_interfaces", but CMake did not find one.
+[2.073s] 
+[2.073s]   Could not find a package configuration file provided by
+[2.073s]   "my_robot_interfaces" with any of the following names:
+[2.073s] 
+[2.073s]     my_robot_interfacesConfig.cmake
+[2.073s]     my_robot_interfaces-config.cmake
+[2.074s] 
+[2.074s]   Add the installation prefix of "my_robot_interfaces" to CMAKE_PREFIX_PATH
+[2.074s]   or set "my_robot_interfaces_DIR" to a directory containing one of the above
+[2.074s]   files.  If "my_robot_interfaces" provides a separate development package or
+[2.074s]   SDK, be sure it has been installed.
+[2.074s] 
+[2.074s] 
+[2.074s] -- Configuring incomplete, errors occurred!
+[2.074s] See also "/home/vincent-pc/ros2_foxy/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[2.074s] See also "/home/vincent-pc/ros2_foxy/build/my_cpp_pkg/CMakeFiles/CMakeError.log".
+[2.081s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/opt/ros/foxy /usr/bin/cmake /home/vincent-pc/ros2_foxy/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/vincent-pc/ros2_foxy/install/my_cpp_pkg

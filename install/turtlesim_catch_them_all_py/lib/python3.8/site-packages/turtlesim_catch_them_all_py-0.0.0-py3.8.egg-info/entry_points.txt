@@ -1,0 +1,5 @@
+[console_scripts]
+controller_py = turtlesim_catch_them_all_py.turtle_controller:main
+controller_py_PID = turtlesim_catch_them_all_py.turtle_controller_PID:main
+spawner_py = turtlesim_catch_them_all_py.turtle_spawner:main
+

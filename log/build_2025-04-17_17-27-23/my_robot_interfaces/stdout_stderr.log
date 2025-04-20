@@ -1,0 +1,202 @@
+[  1%] Built target my_robot_interfaces__cpp
+[ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[ 23%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[ 34%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[ 45%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 67%] Built target my_robot_interfaces__rosidl_typesupport_c
+[ 67%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[ 78%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[ 78%] Built target my_robot_interfaces
+[ 80%] Built target my_robot_interfaces__py
+[ 89%] Built target my_robot_interfaces__python
+[ 92%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__functions.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__functions.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__type_support.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__struct.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__functions.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_state_array.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__functions.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__type_support.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__builder.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__traits.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__struct.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__type_support.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/hardware_status.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/led_state_array.hpp
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__struct.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__builder.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__traits.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/set_led.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/compute_rectangle_area.hpp
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__type_support.cpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv
+-- Up-to-date: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__type_support.cpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/include/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py
+Compiling '/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/__init__.py'...
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/__init__.py
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_hardware_status.py
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_state_array.py
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/msg/_led_state_array_s.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led.py
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/__init__.py
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area.py
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_set_led_s.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/srv/_compute_rectangle_area_s.c
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so
+-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/libmy_robot_interfaces__python.so" to ""
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.idl
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.idl
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStateArray.msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea.srv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Request.msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangleArea_Response.msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Request.msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Response.msg
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+-- Installing: /home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/package.xml

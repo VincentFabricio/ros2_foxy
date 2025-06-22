@@ -1,3 +1,1 @@
-int64 temperature
-bool are_motors_ready
-string debug_message
+/home/vincent-pc/ros2_foxy/src/my_robot_interfaces/msg/HardwareStatus.msg

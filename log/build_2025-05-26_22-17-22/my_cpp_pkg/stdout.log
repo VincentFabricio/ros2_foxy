@@ -1,0 +1,12 @@
+[  8%] Built target hardware_status_publisher_cpp
+[ 12%] [32mBuilding CXX object CMakeFiles/number_counter_cpp.dir/src/number_counter.cpp.o[0m
+[ 20%] Built target cpp_node
+[ 29%] Built target led_panel_cpp
+[ 37%] Built target add_two_ints_server_cpp
+[ 45%] Built target robot_news_station_cpp
+[ 54%] Built target add_two_ints_client_no_oop
+[ 62%] Built target smartphone_cpp
+[ 70%] Built target number_counter_server_cpp
+[ 79%] Built target number_publisher_cpp
+[ 87%] Built target reset_number_client
+[ 95%] Built target add_two_ints_client

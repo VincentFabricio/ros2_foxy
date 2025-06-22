@@ -1,1 +1,1 @@
-int64[] led_states
+/home/vincent-pc/ros2_foxy/src/my_robot_interfaces/msg/LedStateArray.msg

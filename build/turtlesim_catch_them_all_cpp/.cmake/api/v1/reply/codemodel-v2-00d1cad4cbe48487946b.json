@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlesim_catch_them_all_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_cpp-cd103a7a7fe316aa01fb.json",
+					"name" : "controller_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spawner_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spawner_cpp-2733d579cbf32356c9a6.json",
+					"name" : "spawner_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_catch_them_all_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_catch_them_all_cpp_uninstall-7215d888e6bda4ecf6a9.json",
+					"name" : "turtlesim_catch_them_all_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9c46842cbedbc82ac9f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp",
+		"source" : "/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

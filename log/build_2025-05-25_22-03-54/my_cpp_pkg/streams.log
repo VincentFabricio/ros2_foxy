@@ -1,0 +1,59 @@
+[0.040s] Invoking command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8
+[0.092s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.143s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.544s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.831s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.934s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.204s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.399s] -- Found my_robot_interfaces: 0.0.0 (/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.551s] -- Configuring done
+[1.651s] -- Generating done
+[1.707s] -- Build files have been written to: /home/vincent-pc/ros2_foxy/build/my_cpp_pkg
+[1.820s] [35m[1mScanning dependencies of target hardware_status_publisher_cpp[0m
+[1.848s] [35m[1mScanning dependencies of target led_panel_cpp[0m
+[1.893s] [35m[1mScanning dependencies of target number_counter_cpp[0m
+[1.918s] [  4%] [32mBuilding CXX object CMakeFiles/hardware_status_publisher_cpp.dir/src/hw_status_publisher.cpp.o[0m
+[1.958s] [ 12%] Built target cpp_node
+[1.978s] [ 16%] [32mBuilding CXX object CMakeFiles/number_counter_cpp.dir/src/number_counter.cpp.o[0m
+[2.006s] [ 20%] [32mBuilding CXX object CMakeFiles/led_panel_cpp.dir/src/led_panel.cpp.o[0m
+[2.008s] [ 29%] Built target robot_news_station_cpp
+[2.049s] [ 37%] Built target smartphone_cpp
+[2.072s] [ 45%] Built target add_two_ints_client_no_oop
+[2.101s] [ 54%] Built target add_two_ints_server_cpp
+[2.227s] [ 62%] Built target number_publisher_cpp
+[2.236s] [ 70%] Built target add_two_ints_client
+[2.268s] [ 79%] Built target number_counter_server_cpp
+[2.288s] [ 87%] Built target reset_number_client
+[5.065s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp:[m[K In constructor ‘[01m[KNumberCounterNode::NumberCounterNode()[m[K’:
+[5.065s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp:10:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_[m[K’ was not declared in this scope
+[5.065s]    10 |         Subscriber1_= this->create_subscription<[01;31m[Kexample_[m[K    interfaces::msg::Int64>
+[5.065s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[5.066s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp:10:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[5.066s]    10 |         Subscriber1_= this->[01;31m[Kcreate_subscription<example_    interfaces::msg::Int64>[m[K
+[5.066s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.081s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp:12:108:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KNumberCounterNode::create_subscription<<expression error> >(const char [11], int, std::_Bind_helper<false, void (NumberCounterNode::*)(std::shared_ptr<example_interfaces::msg::Int64_<std::allocator<void> > >), NumberCounterNode*, const std::_Placeholder<1>&>::type)[m[K’
+[5.081s]    12 |                                         (&NumberCounterNode::SubscriberNumber, this, std::placeholders::_1)[01;31m[K)[m[K;
+[5.081s]       |                                                                                                            [01;31m[K^[m[K
+[5.081s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.081s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[5.081s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.090s]                  from [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp:1[m[K:
+[5.091s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[5.091s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[5.091s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.091s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.091s] [01m[K/home/vincent-pc/ros2_foxy/src/my_cpp_pkg/src/number_counter.cpp:12:108:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.091s]    12 |                                         (&NumberCounterNode::SubscriberNumber, this, std::placeholders::_1)[01;31m[K)[m[K;
+[5.091s]       |                                                                                                            [01;31m[K^[m[K
+[6.605s] make[2]: *** [CMakeFiles/number_counter_cpp.dir/build.make:63: CMakeFiles/number_counter_cpp.dir/src/number_counter.cpp.o] Error 1
+[6.605s] make[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/number_counter_cpp.dir/all] Error 2
+[6.605s] make[1]: *** Waiting for unfinished jobs....
+[7.715s] [ 91%] [32m[1mLinking CXX executable hardware_status_publisher_cpp[0m
+[7.961s] [ 91%] Built target hardware_status_publisher_cpp
+[8.283s] [ 95%] [32m[1mLinking CXX executable led_panel_cpp[0m
+[8.572s] [ 95%] Built target led_panel_cpp
+[8.574s] make: *** [Makefile:141: all] Error 2
+[8.577s] Invoked command in '/home/vincent-pc/ros2_foxy/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/my_cpp_pkg -- -j8 -l8

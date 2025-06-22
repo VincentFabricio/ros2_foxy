@@ -1,2 +1,1 @@
-
-bool success
+/home/vincent-pc/ros2_foxy/build/my_robot_interfaces/rosidl_cmake/srv/CatchTurtle_Response.msg

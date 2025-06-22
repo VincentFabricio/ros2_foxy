@@ -7,7 +7,7 @@ public:
     NumberCounterNode() : Node("number_counter_cpp"),numberCounter_(2)
     {
         Publisher1_ = this->create_publisher<example_interfaces::msg::Int64>("number_count",10);
-        Subscriber1_= this->create_subscription<example_interfaces::msg::Int64>
+        Subscriber1_= this->create_subscription<example_    interfaces::msg::Int64>
                                         ("number_cpp",10,std::bind
                                         (&NumberCounterNode::SubscriberNumber, this, std::placeholders::_1));
         RCLCPP_INFO(this->get_logger(),"Number Counter has been started.");

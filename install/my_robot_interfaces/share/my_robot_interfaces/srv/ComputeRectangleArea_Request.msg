@@ -1,2 +1,1 @@
-float64 length
-float64 width
+/home/vincent-pc/ros2_foxy/build/my_robot_interfaces/rosidl_cmake/srv/ComputeRectangleArea_Request.msg

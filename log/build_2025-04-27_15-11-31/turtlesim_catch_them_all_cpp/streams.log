@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp -- -j8 -l8
+[0.061s] [35m[1mScanning dependencies of target controller[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/turtle_controller.cpp.o[0m
+[5.580s] [100%] [32m[1mLinking CXX executable controller[0m
+[5.898s] [100%] Built target controller
+[5.909s] Invoked command in '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp -- -j8 -l8
+[5.920s] Invoking command in '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp
+[5.930s] -- Install configuration: ""
+[5.931s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/lib/turtlesim_catch_them_all_cpp/controller
+[5.932s] -- Set runtime path of "/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/lib/turtlesim_catch_them_all_cpp/controller" to ""
+[5.932s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all_cpp
+[5.932s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all_cpp
+[5.932s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/ament_prefix_path.sh
+[5.932s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/ament_prefix_path.dsv
+[5.932s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/path.sh
+[5.932s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/path.dsv
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.bash
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.sh
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.zsh
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.dsv
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/package.dsv
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/ament_index/resource_index/packages/turtlesim_catch_them_all_cpp
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/cmake/turtlesim_catch_them_all_cppConfig.cmake
+[5.933s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/cmake/turtlesim_catch_them_all_cppConfig-version.cmake
+[5.934s] -- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/package.xml
+[5.936s] Invoked command in '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp

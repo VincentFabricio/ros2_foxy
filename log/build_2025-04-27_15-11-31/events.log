@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000654] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000879] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000927] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000957] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all_py'}
+[0.001012] (turtlesim_catch_them_all_cpp) JobQueued: {'identifier': 'turtlesim_catch_them_all_cpp', 'dependencies': OrderedDict()}
+[0.001045] (turtlesim_catch_them_all_cpp) JobStarted: {'identifier': 'turtlesim_catch_them_all_cpp'}
+[0.012380] (turtlesim_catch_them_all_cpp) JobProgress: {'identifier': 'turtlesim_catch_them_all_cpp', 'progress': 'cmake'}
+[0.013303] (turtlesim_catch_them_all_cpp) JobProgress: {'identifier': 'turtlesim_catch_them_all_cpp', 'progress': 'build'}
+[0.014053] (turtlesim_catch_them_all_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp', '--', '-j8', '-l8'], 'cwd': '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent-pc'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2410'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vincent-pc'), ('OLDPWD', '/home/vincent-pc'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5843'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vincent-pc/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vincent-pc'), ('JOURNAL_STREAM', '9:57542'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'vincent-pc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/vincent-pc/bin:/home/vincent-pc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincentpc-Aspire-A315-57G:@/tmp/.ICE-unix/2448,unix/vincentpc-Aspire-A315-57G:/tmp/.ICE-unix/2448'), ('INVOCATION_ID', '9921b662a5624174b10faac769061817'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/vincent-pc/ros2_foxy/install/my_robot_bringup:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_foxy/install/my_robot_interfaces:/home/vincent-pc/ros2_foxy/install/my_cpp_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c525726f-feac-4624-ade9-54f82d303760'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages:/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages:/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vincent-pc/ros2_foxy/install/my_robot_bringup:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all:/home/vincent-pc/ros2_foxy/install/my_robot_interfaces:/home/vincent-pc/ros2_foxy/install/my_cpp_pkg:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.061655] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controller\x1b[0m\n'}
+[0.085933] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[0.099554] (-) TimerEvent: {}
+[0.199930] (-) TimerEvent: {}
+[0.300276] (-) TimerEvent: {}
+[0.400607] (-) TimerEvent: {}
+[0.500976] (-) TimerEvent: {}
+[0.601350] (-) TimerEvent: {}
+[0.701853] (-) TimerEvent: {}
+[0.802230] (-) TimerEvent: {}
+[0.902550] (-) TimerEvent: {}
+[1.002936] (-) TimerEvent: {}
+[1.103383] (-) TimerEvent: {}
+[1.203881] (-) TimerEvent: {}
+[1.304360] (-) TimerEvent: {}
+[1.404711] (-) TimerEvent: {}
+[1.505081] (-) TimerEvent: {}
+[1.605470] (-) TimerEvent: {}
+[1.705874] (-) TimerEvent: {}
+[1.806369] (-) TimerEvent: {}
+[1.906676] (-) TimerEvent: {}
+[2.006991] (-) TimerEvent: {}
+[2.107307] (-) TimerEvent: {}
+[2.207647] (-) TimerEvent: {}
+[2.308033] (-) TimerEvent: {}
+[2.408369] (-) TimerEvent: {}
+[2.508707] (-) TimerEvent: {}
+[2.609050] (-) TimerEvent: {}
+[2.709383] (-) TimerEvent: {}
+[2.809749] (-) TimerEvent: {}
+[2.910113] (-) TimerEvent: {}
+[3.010460] (-) TimerEvent: {}
+[3.110868] (-) TimerEvent: {}
+[3.211255] (-) TimerEvent: {}
+[3.312175] (-) TimerEvent: {}
+[3.412540] (-) TimerEvent: {}
+[3.512931] (-) TimerEvent: {}
+[3.613350] (-) TimerEvent: {}
+[3.713848] (-) TimerEvent: {}
+[3.814520] (-) TimerEvent: {}
+[3.914964] (-) TimerEvent: {}
+[4.015470] (-) TimerEvent: {}
+[4.115942] (-) TimerEvent: {}
+[4.216429] (-) TimerEvent: {}
+[4.317051] (-) TimerEvent: {}
+[4.417596] (-) TimerEvent: {}
+[4.518040] (-) TimerEvent: {}
+[4.618498] (-) TimerEvent: {}
+[4.718900] (-) TimerEvent: {}
+[4.819269] (-) TimerEvent: {}
+[4.919563] (-) TimerEvent: {}
+[5.019879] (-) TimerEvent: {}
+[5.120230] (-) TimerEvent: {}
+[5.220515] (-) TimerEvent: {}
+[5.320819] (-) TimerEvent: {}
+[5.421161] (-) TimerEvent: {}
+[5.521567] (-) TimerEvent: {}
+[5.581135] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[5.621809] (-) TimerEvent: {}
+[5.722180] (-) TimerEvent: {}
+[5.822708] (-) TimerEvent: {}
+[5.899004] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[5.909399] (turtlesim_catch_them_all_cpp) CommandEnded: {'returncode': 0}
+[5.910270] (turtlesim_catch_them_all_cpp) JobProgress: {'identifier': 'turtlesim_catch_them_all_cpp', 'progress': 'install'}
+[5.920060] (turtlesim_catch_them_all_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp'], 'cwd': '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vincent-pc'), ('LC_TIME', 'es_CO.UTF-8'), ('SSH_AGENT_PID', '2410'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vincent-pc'), ('OLDPWD', '/home/vincent-pc'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '2299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5843'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vincent-pc/ros2_foxy/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vincent-pc'), ('JOURNAL_STREAM', '9:57542'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'vincent-pc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/vincent-pc/bin:/home/vincent-pc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vincentpc-Aspire-A315-57G:@/tmp/.ICE-unix/2448,unix/vincentpc-Aspire-A315-57G:/tmp/.ICE-unix/2448'), ('INVOCATION_ID', '9921b662a5624174b10faac769061817'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/vincent-pc/ros2_foxy/install/my_robot_bringup:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/home/vincent-pc/ros2_foxy/install/my_robot_interfaces:/home/vincent-pc/ros2_foxy/install/my_cpp_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c525726f-feac-4624-ade9-54f82d303760'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vincent-pc/ros2_foxy/build/turtlesim_catch_them_all_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py/lib/python3.8/site-packages:/home/vincent-pc/ros2_foxy/install/my_py_pkg/lib/python3.8/site-packages:/home/vincent-pc/ros2_foxy/install/my_robot_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vincent-pc/ros2_foxy/install/my_robot_bringup:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all:/home/vincent-pc/ros2_foxy/install/my_robot_interfaces:/home/vincent-pc/ros2_foxy/install/my_cpp_pkg:/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_py:/home/vincent-pc/ros2_foxy/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[5.922888] (-) TimerEvent: {}
+[5.931310] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.931655] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/lib/turtlesim_catch_them_all_cpp/controller\n'}
+[5.932881] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/lib/turtlesim_catch_them_all_cpp/controller" to ""\n'}
+[5.933009] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/ament_index/resource_index/package_run_dependencies/turtlesim_catch_them_all_cpp\n'}
+[5.933095] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/ament_index/resource_index/parent_prefix_path/turtlesim_catch_them_all_cpp\n'}
+[5.933182] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/ament_prefix_path.sh\n'}
+[5.933336] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/ament_prefix_path.dsv\n'}
+[5.933420] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/path.sh\n'}
+[5.933503] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/environment/path.dsv\n'}
+[5.933578] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.bash\n'}
+[5.933659] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.sh\n'}
+[5.933748] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.zsh\n'}
+[5.933854] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/local_setup.dsv\n'}
+[5.934029] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/package.dsv\n'}
+[5.934212] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/ament_index/resource_index/packages/turtlesim_catch_them_all_cpp\n'}
+[5.934344] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/cmake/turtlesim_catch_them_all_cppConfig.cmake\n'}
+[5.934435] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/cmake/turtlesim_catch_them_all_cppConfig-version.cmake\n'}
+[5.934529] (turtlesim_catch_them_all_cpp) StdoutLine: {'line': b'-- Installing: /home/vincent-pc/ros2_foxy/install/turtlesim_catch_them_all_cpp/share/turtlesim_catch_them_all_cpp/package.xml\n'}
+[5.936400] (turtlesim_catch_them_all_cpp) CommandEnded: {'returncode': 0}
+[5.956473] (turtlesim_catch_them_all_cpp) JobEnded: {'identifier': 'turtlesim_catch_them_all_cpp', 'rc': 0}
+[5.957777] (-) EventReactorShutdown: {}

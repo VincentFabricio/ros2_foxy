@@ -1,0 +1,37 @@
+[35m[1mScanning dependencies of target controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/turtle_controller.cpp.o[0m
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:[m[K In constructor ‘[01m[KTurtleControllerNode::TurtleControllerNode()[m[K’:
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:17:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+   17 |         cmd_vel_publisher_ = this->create_publisher<[01;31m[Kgeometry_msg[m[K::msg::Twist>(name_ + "/cmd_vel", 10);
+      |                                                     [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                     [32m[Kgeometry_msgs[m[K
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:17:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   17 |         cmd_vel_publisher_ = this->[01;31m[Kcreate_publisher<geometry_msg::msg::Twist>[m[K(name_ + "/cmd_vel", 10);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:17:101:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleControllerNode::create_publisher<<expression error> >(std::__cxx11::basic_string<char>, int)[m[K’
+   17 | e_publisher<geometry_msg::msg::Twist>(name_ + "/cmd_vel", 10[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:17:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 | e_publisher<geometry_msg::msg::Twist>(name_ + "/cmd_vel", 10[01;31m[K)[m[K;
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subcriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_subscriber_[m[K’?
+   19 |         [01;31m[Kpose_subcriber_[m[K = this->create_subscription<turtlesim::msg::Pose>(
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[Kpose_subscriber_[m[K
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:[m[K In member function ‘[01m[Kvoid TurtleControllerNode::control_loop()[m[K’:
+[01m[K/home/vincent-pc/ros2_foxy/src/turtlesim_catch_them_all_cpp/src/turtle_controller.cpp:44:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ has not been declared
+   44 |         auto msg = [01;31m[Kgeometry_msg[m[K::msg::Twist();
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/controller.dir/build.make:63: CMakeFiles/controller.dir/src/turtle_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

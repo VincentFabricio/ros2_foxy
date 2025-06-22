@@ -1,1 +1,1 @@
-Turtle[] turtles
+/home/vincent-pc/ros2_foxy/src/my_robot_interfaces/msg/TurtleArray.msg
